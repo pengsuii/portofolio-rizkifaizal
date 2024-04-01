@@ -1,0 +1,43 @@
+.banner {
+    background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.lingkaran{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+a.sosmed {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: #ffff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 100px;
+    margin-right: 50px;
+}
+
+.footer {
+    color: #ffff;
+}
